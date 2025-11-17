@@ -1,0 +1,12 @@
+{
+  "name": "user-management-system",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:client": "pnpm --filter client dev",
+    "start:backend": "pnpm --filter backend start:dev"
+  }
+}

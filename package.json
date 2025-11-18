@@ -8,5 +8,8 @@
   "scripts": {
     "start:client": "pnpm --filter client dev",
     "start:backend": "pnpm --filter backend start:dev"
+  },
+  "dependencies": {
+    "lazy": "^1.0.11"
   }
 }
